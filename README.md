@@ -5,6 +5,9 @@ To solve this, this repository contains a complete list of all methods that have
 The results are from Bench2Drive version 0.0.3 and self-reported, copied from the respective publications. 
 Methods are sorted by Driving Score (DS).
 At the bottom of the table, separated by a line, are privileged methods that use ground truth perception as input.
+This leaderboard compares the final performance of entire methods, including data acquisition methods, not just architectures.
+Methods vary among many axes: driving dataset used, pre-training strategy, training compute, inference compute, number of parameters, IL/RL, etc.
+In particular, many (4/5) of the current top-performing methods use the [PDM-Lite dataset](https://github.com/autonomousvision/carla_garage).
 
 To add a new method please open a pull request. For fixing errors please open a GitHub issue.
 
@@ -17,7 +20,7 @@ Last updated: 10. Nov. 2025
 | Method                                                                                                                          |   DS ↑    |   SR ↑    | Year |      Venue       |
 |:--------------------------------------------------------------------------------------------------------------------------------|:---------:|:---------:| :--: |:----------------:|
 | [AD-MLP](https://arxiv.org/abs/2305.10430)                                                                                      |   18.05   |   0.00    | 2023 |        -         |
-| [TCP](https://arxiv.org/abs/2206.08129)                                                                                                                         |   40.70   |   15.00   | 2022 |     NeurIPS      |
+| [TCP](https://arxiv.org/abs/2206.08129)                                                                                         |   40.70   |   15.00   | 2022 |     NeurIPS      |
 | [ReAL-AD](https://arxiv.org/abs/2507.12499)                                                                                     |   41.17   |   11.36   | 2025 |        -         |
 | [VAD](https://arxiv.org/abs/2303.12077)                                                                                         |   42.35   |   15.00   | 2023 |       ICCV       |
 | [SparseDrive](https://arxiv.org/abs/2405.19620)                                                                                 |   44.54   |   16.71   | 2025 |       ICRA       |
@@ -55,6 +58,7 @@ Last updated: 10. Nov. 2025
 | [Hydra-NeXt](https://arxiv.org/abs/2503.12030)                                                                                  |   73.86   |   50.00   | 2025 |        -         |
 | [DriveMoE](https://arxiv.org/abs/2505.16278)                                                                                    |   74.22   |   48.64   | 2025 |        -         |
 | [ETA](https://arxiv.org/abs/2506.07725)                                                                                         |   74.33   |   48.33   | 2025 |       ICCV       |
+| [DiffusionDrive-temp](https://arxiv.org/abs/2411.15139)                                                                         |   77.68   |   52.72   | 2025 |       CVPR       |
 | [ORION](https://arxiv.org/abs/2503.19755)                                                                                       |   77.74   |   54.62   | 2025 |       ICCV       |
 | [PGS](https://openreview.net/forum?id=PZqII8EoFG&referrer=%5Bthe%20profile%20of%20Yi%20Huang%5D(%2Fprofile%3Fid%3D~Yi_Huang20)) |   78.08   |   48.64   | 2025 |     NeurIPS      |
 | [GaussianFusion](https://arxiv.org/abs/2506.00034)                                                                              |   79.10   |   54.40   | 2025 |     NeurIPS      |
