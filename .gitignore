@@ -1,0 +1,91 @@
+# ------------------------------
+# Recommended .gitignore for LaTeX
+# ------------------------------
+
+# LaTeX intermediate / auxiliary files
+*.aux
+*.bbl
+*.blg
+*.brf
+*.lof
+*.lot
+*.log
+*.out
+*.toc
+*.fmt
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.synctex(busy)     # some systems show busy in parentheses
+*.run.xml
+
+# Generated (temporary) files from packages / tools
+*.nav
+*.snm
+*.vrb
+*.idx
+*.ilg
+*.ind
+*.glo
+*.gls
+*.glsdefs
+*.acn
+*.acr
+*.alg
+*.ist
+
+# PDF, DVI, PS output (uncomment if you want to track built PDFs)
+*.pdf
+*.dvi
+*.ps
+
+# Bibliography and citation helper files
+*.bbl
+*.blg
+
+# latexmk, arara and other build dirs and caches
+.latexmkrc
+/.latexmk/           # if latexmk uses a cache dir
+latexbuild/          # common build output folder
+build/
+out/
+dist/
+
+# minted / Pygments caches (and other generated folders)
+_minted-*/
+minted-cache/
+*.pyg
+
+# Editor/IDE metadata and swap files
+*~
+*.swp
+*.swo
+*.tmp
+*.bak
+*.backup
+
+# VS Code / JetBrains / Sublime project config
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# TeXShop / TeXworks
+*.texbak
+*.synctex.gz(busy)
+
+# TexStudio/Texmaker session files
+*.session
+
+# LyX temporary files (if mixing LyX)
+*.lyx~
+# ------------------------------
+# Optionally allow certain PDF(s) while ignoring others:
+# If you want to ignore all PDFs except final-report.pdf:
+# *.pdf
+# !final-report.pdf
+# ------------------------------
