@@ -31,6 +31,7 @@ Last updated: 10. Nov. 2025
 | [UniAD](https://arxiv.org/abs/2212.10156)                                                                                       |   45.81   |   16.36   | 2023 |       CVPR       |
 | [MomAD](https://arxiv.org/abs/2503.03125)                                                                                       |   47.91   |   18.11   | 2025 |       CVPR       |
 | [CogAD](https://arxiv.org/abs/2505.21581)                                                                                       |   48.30   |   24.00   | 2025 |        -         |
+| [AdaptiveAD](https://arxiv.org/abs/2511.13079)                                                                             |   49.47   |   19.23   | 2025 |        -         |
 | [BridgeAD](https://arxiv.org/abs/2503.14182)                                                                                    |   50.06   |   22.73   | 2025 |       CVPR       |
 | [E³AD](https://arxiv.org/abs/2511.01334)                                                                                        |   50.07   |   20.12   | 2025 |        -         |
 | [X-Driver](https://arxiv.org/abs/2505.05098)                                                                                    |   51.70   |   18.10   | 2025 |        -         |
