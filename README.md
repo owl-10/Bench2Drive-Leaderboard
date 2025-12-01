@@ -13,7 +13,7 @@ To add a new method please open a pull request. For fixing errors please open a 
 
 [Main.tex](main.tex) contains the leaderboard table as latex with the associated citations in CVPR-style.
 
-Last updated: 10. Nov. 2025
+Last updated: 01. Dec. 2025
 
 ## Results:
 
